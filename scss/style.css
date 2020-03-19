@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black&display=swap");
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #8f8d8d;
+  color: #8f8d8d;
+  font-family: "Righteous", cursive;
+}
+
+.title {
+  padding: 15px 0;
+}
+
+h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px #cc91f3;
+}
+
+h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: "Archivo Black", sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px #cc91f3;
+}
+
+.container {
+  max-width: 850px;
+  background-color: #2c2622;
+  padding: 0px 50px 50px 50px;
+  margin: 30px auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 11px 12px 5px #553D99;
+  box-shadow: 5px 11px 12px 5px #553D99;
+}
+
+.container .pads {
+  display: -ms-grid;
+  display: grid;
+  grid: repeat(3, 170px)/repeat(5, 1fr);
+  grid-gap: 15px 10px;
+}
+
+.container .pads div {
+  border: 1px solid #a5a3a2;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 7px 2px -1px #918491;
+  box-shadow: 3px 7px 2px -1px #918491;
+}
+
+.container .pads .pad1:hover, .container .pads .pad2:hover, .container .pads .pad3:hover, .container .pads .pad4:hover, .container .pads .pad5:hover, .container .pads .pad6:hover, .container .pads .pad7:hover, .container .pads .pad8:hover, .container .pads .pad9:hover, .container .pads .pad10:hover, .container .pads .pad11:hover, .container .pads .pad12:hover, .container .pads .pad13:hover, .container .pads .pad14:hover, .container .pads .pad15:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  cursor: pointer;
+}
+
+.container .pads .pad1, .container .pads .pad13 {
+  background: -webkit-gradient(linear, left top, right top, from(#0700b8), to(#00ff88));
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.container .pads .pad2, .container .pads .pad14 {
+  background: -webkit-gradient(linear, left top, right top, from(#d53369), to(#daae51));
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.container .pads .pad3, .container .pads .pad15 {
+  background: -webkit-gradient(linear, left top, right top, from(#efd5ff), to(#515ada));
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.container .pads .pad4 {
+  background: -webkit-gradient(linear, left top, right top, from(#00d2ff), to(#3a47d5));
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+.container .pads .pad5 {
+  background: -webkit-gradient(linear, left top, right top, from(#FDBB2D), to(#22C1C3));
+  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+}
+
+.container .pads .pad6 {
+  background: -webkit-gradient(linear, left top, right top, from(#FDBB2D), to(#3A1C71));
+  background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+}
+
+.container .pads .pad7 {
+  background: -webkit-gradient(linear, left top, right top, from(#4b6cb7), to(#182848));
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.container .pads .pad8 {
+  background: -webkit-gradient(linear, left top, right top, from(#9ebd13), to(#008552));
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
+
+.container .pads .pad9 {
+  background: -webkit-gradient(linear, left top, right top, from(#1CB5E0), to(#000851));
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.container .pads .pad10 {
+  background: -webkit-gradient(linear, left top, right top, from(#00C9FF), to(#92FE9D));
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.container .pads .pad11 {
+  background: -webkit-gradient(linear, left top, right top, from(#FC466B), to(#3F5EFB));
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+.container .pads .pad12 {
+  background: -webkit-gradient(linear, left top, right top, from(#3F2B96), to(#A8C0FF));
+  background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+
+@media all and (max-width: 480px) {
+  .container .pads {
+    display: -ms-grid;
+    display: grid;
+    grid: repeat(5, 100px)/repeat(3, 1fr);
+    grid-gap: 15px 10px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .container .pads {
+    display: -ms-grid;
+    display: grid;
+    grid: repeat(5, 75px)/repeat(3, 1fr);
+    grid-gap: 15px 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
